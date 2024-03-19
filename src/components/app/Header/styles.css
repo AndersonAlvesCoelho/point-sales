@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #252836; 
+  color: white;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+}
+.logo img {
+  height: 4rem;
+  width: 4rem;
+}
+.title-logo {
+  font-family: 'Playfair Display', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.header button {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 25%;
+}
+.icon {
+  color: #ea7c69;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.icon:hover {
+  color: #ea7c69;
+  height: 2.75rem;
+  width: 2.75rem;
+}
